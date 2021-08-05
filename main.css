@@ -14,9 +14,18 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 20px;
+    height: 40px;
     width: 100%;
     background: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
+}
+
+nav .logo {
+    margin: 0, 25px;
+    color: #5a12b9;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
 }
