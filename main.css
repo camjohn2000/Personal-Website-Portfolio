@@ -22,10 +22,44 @@ nav {
 }
 
 nav .logo {
-    margin: 0, 25px;
+    margin: 0, 35px;
+    padding-left: 10px;
     color: #5a12b9;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 
 }
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    margin: 0 20px;
+    padding: 30px, 30px;
+    text-decoration: none;
+    transition: 0.8 ease-in;
+    color: #5a12b9;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    background: #b5b3b8;
+
+}
+
+header {
+    display: grid;
+    place-items: center;
+    height: 400px;
+    width: 80%
+}
+
+.headerBox {
+    padding: 20px;
+}
+
