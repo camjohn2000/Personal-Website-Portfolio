@@ -1,4 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #5a12b9;
+    font-family: sans-serif;
+}
 
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
 }
