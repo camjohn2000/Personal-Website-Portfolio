@@ -104,6 +104,20 @@ header {
 
 }
 
+.aboutMeSection {
+    display: grid;
+    margin: 50px 500px;
+    padding: 5px;
+    background-color: #b5b3b8;
+    border-radius: 8px;    
+}
+
+.aboutMeText {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
 .threeContainersSection {
     display: flex;
     justify-content: space-between;
