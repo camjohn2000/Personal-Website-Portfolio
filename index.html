@@ -13,71 +13,83 @@
 
     </head>
 
+
+    <!--Navigation bar-->
     <body>
         <section class="navSection">
+            <a href="#" class="logo"> Insert something</a>
+            <button class="navToggle" aria-label="toggle navigation">
+                <span class="ham"></span>
+            </button>
             <nav>
-                <a href="#" class="logo"> Insert something</a>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">CONTACT ME</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
                 </ul>
             </nav>
         </section>
         
-        <section class="headerSection">
+        <!--Banner-->
+        <section class="headerSection" id="home">
             <header>
                 <div class="facePic">
-                    <img class="face" src="resources/cam.png" height="350" width="290" alt="Cameron Johnson">
+                    <img class="face" src="resources/cam.png" height="350" width="290" alt="">
                 </div>
                 <div class="headerTitles">
-                    <h1 class="webTitle">I'm Cameron M.A. Johnson</h1>
-                    <h2 class="subHeaderTitle">Undergraduate Computer Science Student</h2>                    
+                    <h1 class="webTitle">I'm <strong>Cameron M.A. Johnson</strong></h1>
+                    <h2 class="subHeaderTitle">Computer Science</h2>                    
                     <h3 class="schoolnameHeader">Prairie View A&M University</h3>
-                </div>
-                <div class="pvamuImage">
-                    <img src="resources/pvamu.png" height="350" width="600" alt="Prairie View A&M University Entrance">
                 </div>
             </header>
         </section>
 
-
-        <section class="aboutMeSection">
-            <div class="aboutText">
-                <h2> About Me</h2>
+        <!--About Me Paragraph-->
+        <section class="aboutMeSection" id="about">
+            <h2 class="aboutMeTitle"> About Me</h2>
+            <div class="aboutMeText">
                 <p> Hello, my name is Cameron Johnson, and I am a 4th year Senior computer science 
-                    student at Prairie View A&M University. With my upcoming degree, I would love 
-                    to pursue work in the game programming, aviation/aerospace, or in web development, 
-                    but I remain very flexible and open to anything.The world of computer science is 
-                    incredibly vast and I still have a lot to learn, so check back in the future as I explore more new and exciting topics! 
-                </p> 
+                    student at Prairie View A&M University. //Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+                <p>
+                    With my upcoming degree, I would love to pursue work in the game programming, aviation/aerospace, 
+                    or in web development, but I remain very flexible and open to anything. The world of computer science is 
+                    incredibly vast and I still have a lot to learn, so check back in the future as I explore more new and exciting topics!
+                </p>
             </div>
-            <div class="aboutMePic">
-                
+            <img src="resources/camGolf.jpg" alt="Cameron golfing">   
+        </section>
+
+        <!--Area containing skills-->
+        <section class="accoladesSection">
+            <h3> Technical Skills</h3>
+            <div class="infoCard"></div>
+                <ul class="skillList">
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>                        
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+               </ul>
             </div>
+
+            <h3> Awards and Honors </h3>
+            <div class="infoCard"></div>
+                <ul class="awardsList">  
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                </ul>    
+            </div>
+
+            <button class="resumeButton">View Resume Here</button>
         </section>
 
 
-        <section class="threeContainersSection">
-            <div class="infoCard">
-                <h3> Experience</h3>
-                <p> Place holder for experience</p>
-            </div>
-            <div class="infoCard">
-                <h3> Education </h3>
-                <p> Place holder for list of education</p>
-            </div>
-            <div class="infoCard">
-                <h3> Resume </h3>
-                <p> Here you can find my up-to-date full resume</p>
-                <button>View Resume</button>
-            </div>
-
-        </section>
-
-
-        <section class="projectSection">
+        <section class="projectSection" id="projects">
             <div class="projectsTitle">
                 <h2>Computer Science Projects</h2>
             </div>
@@ -89,7 +101,7 @@
         </section>
 
 
-        <section class="contactMeSection">
+        <section class="contactMeSection" id="contact">
             <div class="contactTitle">
                 <h2>Contact Me</h2>
             </div>
