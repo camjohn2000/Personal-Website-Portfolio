@@ -7,8 +7,16 @@
         <meta name="description" content="Visual Resume/Portfolio">
         <meta name="viewport" content="width=device-width, initial-sccale=1.0">
         <meta name="author" content="Cameron Johnson">
-
+        
+        <!--Stylesheets and Scripts-->
         <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     </head>
@@ -17,7 +25,9 @@
     <!--Navigation bar-->
     <body>
         <section class="navSection">
-            <a href="#" class="logo"> Insert something</a>
+            <div class="logo">
+                <img src="resources/pvLogo.png" alt="">
+            </div>
             <button class="navToggle" aria-label="toggle navigation">
                 <span class="ham"></span>
             </button>
@@ -38,29 +48,32 @@
                     <img class="face" src="resources/cam.png" height="350" width="290" alt="">
                 </div>
                 <div class="headerTitles">
-                    <h1 class="webTitle">I'm <strong>Cameron M.A. Johnson</strong></h1>
-                    <h2 class="subHeaderTitle">Computer Science</h2>                    
-                    <h3 class="schoolnameHeader">Prairie View A&M University</h3>
+                    <h1>I'm <strong>Cameron M.A. Johnson</strong></h1>
+                    <h2>Computer Science</h2>                    
+                    <h3>Prairie View A&M University</h3>
                 </div>
             </header>
         </section>
 
         <!--About Me Paragraph-->
         <section class="aboutMeSection" id="about">
-            <h2 class="aboutMeTitle"> About Me</h2>
+            <h2 class="aboutMeTitle">About Me</h2>
             <div class="aboutMeText">
                 <p> Hello, my name is Cameron Johnson, and I am a 4th year Senior computer science 
                     student at Prairie View A&M University. //Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 </p>
+
+                <br>
+
                 <p>
                     With my upcoming degree, I would love to pursue work in the game programming, aviation/aerospace, 
                     or in web development, but I remain very flexible and open to anything. The world of computer science is 
                     incredibly vast and I still have a lot to learn, so check back in the future as I explore more new and exciting topics!
                 </p>
             </div>
-            <img src="resources/camGolf.jpg" alt="Cameron golfing">   
+            <img class="golfPic" src="resources/camGolf.jpg" height="500" width="450" alt="Cameron golfing">   
         </section>
 
         <!--Area containing skills-->
@@ -114,7 +127,8 @@
 
         <section class="footerSection">
             <footer>
-                <p> Created by Cameron Johnson 2021</p>
+                <p>Created by Cameron Johnson 2021</p>
+
             </footer>
         </section>
     </body>
