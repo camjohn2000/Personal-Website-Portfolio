@@ -24,14 +24,14 @@
 
     <!--Navigation bar-->
     <body>
-        <section class="navSection">
+        <header>
             <div class="logo">
                 <img src="resources/pvLogo.png" alt="">
             </div>
             <button class="navToggle" aria-label="toggle navigation">
                 <span class="ham"></span>
             </button>
-            <nav>
+            <nav class="navbar">
                 <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT ME</a></li>
@@ -39,38 +39,36 @@
                     <li><a href="#contact">CONTACT ME</a></li>
                 </ul>
             </nav>
-        </section>
+        </header>
         
         <!--Banner-->
-        <section class="headerSection" id="home">
-            <header>
-                <div class="facePic">
-                    <img class="face" src="resources/cam.png" height="350" width="290" alt="">
-                </div>
-                <div class="headerTitles">
-                    <h1>I'm <strong>Cameron M.A. Johnson</strong></h1>
-                    <h2>Computer Science</h2>                    
-                    <h3>Prairie View A&M University</h3>
-                </div>
-            </header>
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">I'm <strong>Cameron M.A. Johnson</strong></h1>
+            <p class="section__subtitle section__subtitle--intro">Computer Science</p>                    
+            <img class="face" src="resources/cam.png" height="350" width="290" alt="">
+        
+
         </section>
 
         <!--About Me Paragraph-->
         <section class="aboutMeSection" id="about">
-            <h2 class="aboutMeTitle">About Me</h2>
+            <h2 class="section__title section__title--aboutMe">About Me</h2>
+            <p class="section__subtitle section__subtitle--aboutMe"></p>
             <div class="aboutMeText">
-                <p> Hello, my name is Cameron Johnson, and I am a 4th year Senior computer science 
-                    student at Prairie View A&M University. //Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                <p> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                 </p>
 
                 <br>
 
                 <p>
-                    With my upcoming degree, I would love to pursue work in the game programming, aviation/aerospace, 
-                    or in web development, but I remain very flexible and open to anything. The world of computer science is 
-                    incredibly vast and I still have a lot to learn, so check back in the future as I explore more new and exciting topics!
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
             <img class="golfPic" src="resources/camGolf.jpg" height="500" width="450" alt="Cameron golfing">   
@@ -78,7 +76,7 @@
 
         <!--Area containing skills-->
         <section class="accoladesSection">
-            <h3> Technical Skills</h3>
+            <p class="section__subtitle section__subtitle--skills"> Technical Skills</p>
             <div class="infoCard"></div>
                 <ul class="skillList">
                     <li>Placeholder</li>
@@ -88,39 +86,25 @@
                </ul>
             </div>
 
-            <h3> Awards and Honors </h3>
-            <div class="infoCard"></div>
-                <ul class="awardsList">  
-                    <li>Placeholder</li>
-                    <li>Placeholder</li>
-                    <li>Placeholder</li>
-                    <li>Placeholder</li>
-                </ul>    
-            </div>
-
             <button class="resumeButton">View Resume Here</button>
         </section>
 
 
-        <section class="projectSection" id="projects">
-            <div class="projectsTitle">
-                <h2>Computer Science Projects</h2>
-            </div>
-            <div class="projectsubHeader">
-                <p> Here is a collection of some projects I am currently or previously have worked on</p>
-            </div>
+        <section class="projectSection" id="projects">    
+        <h2 class="section__title section__title--projects">Computer Science Projects</h2>
+        <p class="section__subtitle section__subtitle--projects"> A collection of school and personal projects</p>
+            
 
 
         </section>
 
 
         <section class="contactMeSection" id="contact">
-            <div class="contactTitle">
-                <h2>Contact Me</h2>
+        <h2 class="section__title section__title--contact">Contact Me</h2>
             </div>
             <div class="contactText">
                 <p>
-                    Have an inquiry? Reach out to me with this form!
+                    Reach out to me here
                 </p>
             </div>
         </section>
